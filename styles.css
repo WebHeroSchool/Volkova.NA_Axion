@@ -8,7 +8,7 @@ body {
 }
 
 .header {
- margin-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .header,
@@ -35,11 +35,11 @@ body {
   text-decoration: none;
 }
 
-.menu__item{
+.menu__item {
   padding: 0 16px;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
   padding-left: 14px;
 }
 
@@ -55,24 +55,13 @@ body {
   padding: 0 1px 0 19px;
 }
 
-.block-right__item_img{
+.block-right__item_img {
   padding: 0 17px 0 0;
 }
 
 .block-right__item_flag {
-  padding-left:18px;
+  padding-left: 18px;
   padding-right: 0;
-}
-
-.one__button:hover,
-.menu__item:hover,
-.block-right__item:hover,
-.tree-text__button:hover,
-.stories__button:hover,
-.footer__item:hover,
-.footer__button:hover,
-.social__item:hover {
-  opacity: 0.5;
 }
 
 .one {
@@ -85,15 +74,15 @@ body {
 }
 
 .one__title {
- font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
- color: #FFF;
- margin: 0px 75% 15px 60px;
- padding-top: 90px;
+  font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  color: #FFF;
+  margin: 0 75% 15px 60px;
+  padding-top: 90px;
 }
 
 .one__button {
   font: 12px/13px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   margin-left: 60px;
   margin-right: 10px;
@@ -109,7 +98,7 @@ body {
   position: relative;
   width: 44px;
   height: 10px;
-  margin: 0px;
+  margin: 0;
 }
 
 .arrow div {
@@ -118,8 +107,8 @@ body {
   width: 43px;
   height: 1px;
   background-color: #fff;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
-  left:0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  left: 0;
   display: block;
 }
 
@@ -152,14 +141,16 @@ body {
 
 @keyframes arrow {
   0% {
-        left:0;
-      }
+    left: 0;
+  }
+
   50% {
-        left:10px;
-      }
+    left: 10px;
+  }
+
   100% {
-        left:0;
-      }
+    left: 0;
+  }
 }
 
 .product__title {
@@ -218,7 +209,7 @@ body {
   border-radius: 50%;
   border: none;
   padding: 0 4px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .change__item:hover {
@@ -229,40 +220,40 @@ body {
 .change__item_21,
 .change__item_31,
 .change__item_41 {
-  background: #C4C4C4;
+  background: #c4c4c4;
 }
 
 .change__item_12 {
-  background: #0E1211;
+  background: #0e1211;
 }
 
 .change__item_13,
 .change__item_23,
 .change__item_43 {
-  background: #B62E3C;
+  background: #b62e3c;
 }
 
 .change__item_14,
 .change__item_24,
 .change__item_34,
 .change__item_44 {
-  background: #FDB431;
+  background: #fdb431;
 }
 
 .change__item_22 {
-  background: #E29D69;
+  background: #e29d69;
 }
 
 .change__item_32 {
-  background: #762E31;
+  background: #762e31;
 }
 
 .change__item_33 {
-  background: #41479B;
+  background: #41479b;
 }
 
 .change__item_42 {
-  background: #257DA9;
+  background: #257da9;
 }
 
 .tree {
@@ -395,7 +386,7 @@ footer {
 }
 
 .footer-1 {
-  margin: 0px 115px 0 35px;
+  margin: 0 115px 0 35px;
 }
 
 .footer-2 {
@@ -428,7 +419,7 @@ footer {
 }
 
 .footer__menu {
-  padding-left: 0px;
+  padding-left: 0;
   margin: 0;
 }
 
@@ -460,4 +451,15 @@ footer {
   font: 12px/12px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #fff;
   text-align: center;
+}
+
+.one__button:hover,
+.menu__item:hover,
+.block-right__item:hover,
+.tree-text__button:hover,
+.stories__button:hover,
+.footer__item:hover,
+.footer__button:hover,
+.social__item:hover {
+  opacity: 0.5;
 }
