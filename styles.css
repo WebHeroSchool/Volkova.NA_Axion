@@ -29,37 +29,41 @@ body {
 }
 
 .menu__item,
-.block-right__item {
+.block-right {
   font: 12px/12px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-  color: #000;
-  text-decoration: none;
 }
 
 .menu__item {
   padding: 0 16px;
+  color: #000;
+  text-decoration: none;
 }
 
 .menu__item:last-child {
   padding-left: 14px;
 }
 
-.block-right__item_search {
+.block-right__search {
   padding: 0 21px;
 }
 
-.block-right__item_sing {
+.block-right__sing {
   padding: 0 19px;
+  color: #000;
+  text-decoration: none;
 }
 
-.block-right__item_cart {
+.block-right__cart {
   padding: 0 1px 0 19px;
+  color: #000;
+  text-decoration: none;
 }
 
-.block-right__item_img {
+.block-right__img {
   padding: 0 17px 0 0;
 }
 
-.block-right__item_flag {
+.block-right__flag {
   padding-left: 18px;
   padding-right: 0;
 }
@@ -455,7 +459,11 @@ footer {
 
 .one__button:hover,
 .menu__item:hover,
-.block-right__item:hover,
+.block-right__search:hover,
+.block-right__sing:hover,
+.block-right__cart:hover,
+.block-right__img:hover,
+.block-right__flag:hover,
 .tree-text__button:hover,
 .stories__button:hover,
 .footer__item:hover,
