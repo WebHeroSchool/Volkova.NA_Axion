@@ -163,50 +163,50 @@ body {
   margin-bottom: 20px;
 }
 
-.blocks {
+.product-assortment {
   display: flex;
   justify-content: space-between;
   margin-bottom: 55px;
 }
 
-.vl {
+.product-assortment__vl {
   border-left: 1px solid #000;
   opacity: 0.2;
   height: 100px;
   margin-top: 50px;
 }
 
-.kros {
+.product-card__img {
   margin: 0 19px 24px 23px;
 }
 
-.name {
+.product-card__name {
   font: 12px/12px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   padding-left: 12px;
   margin: auto;
 }
 
-.price {
+.product-card__price {
   font: 14px/13px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   padding-left: 11px;
   margin: 0;
 }
 
-.ch {
+.wrapper__choice {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 5px;
 }
 
-.change {
+.choice {
   display: flex;
   justify-content: space-around;
   width: 70px;
   margin-right: 3px;
 }
 
-.change__item {
+.choice__item {
   cursor: pointer;
   width: 7px;
   height: 7px;
@@ -216,47 +216,39 @@ body {
   transition: transform 0.2s;
 }
 
-.change__item:hover {
+.choice__item:hover {
   transform: scale(1.5);
 }
 
-.change__item_11,
-.change__item_21,
-.change__item_31,
-.change__item_41 {
+.choice__item_gray {
   background: #c4c4c4;
 }
 
-.change__item_12 {
+.choice__item_black {
   background: #0e1211;
 }
 
-.change__item_13,
-.change__item_23,
-.change__item_43 {
+.choice__item_red {
   background: #b62e3c;
 }
 
-.change__item_14,
-.change__item_24,
-.change__item_34,
-.change__item_44 {
+.choice__item_yellow {
   background: #fdb431;
 }
 
-.change__item_22 {
+.choice__item_orange {
   background: #e29d69;
 }
 
-.change__item_32 {
+.choice__item_brown {
   background: #762e31;
 }
 
-.change__item_33 {
+.choice__item_navy {
   background: #41479b;
 }
 
-.change__item_42 {
+.choice__item_blue {
   background: #257da9;
 }
 
@@ -267,7 +259,7 @@ body {
   margin-bottom: 83px;
 }
 
-.video {
+.tree__video {
   padding: 65px 18px 63px 32px;
   width: 63%;
 }
