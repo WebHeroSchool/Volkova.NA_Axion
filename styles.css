@@ -381,19 +381,7 @@ footer {
   height: 300px;
 }
 
-.footer-1 {
-  margin: 0 115px 0 35px;
-}
-
-.footer-2 {
-  margin-right: 72px;
-}
-
-.footer-3 {
-  margin-right: 87px;
-}
-
-.footer__wrapper {
+.footer-wrapper {
   display: flex;
   width: 72%;
   margin: auto;
@@ -401,32 +389,51 @@ footer {
   padding-top: 55px;
 }
 
-.footer__title {
+.footer-account {
+  margin: 0 115px 0 35px;
+}
+
+.footer-service {
+  margin-right: 72px;
+}
+
+.footer-miscel {
+  margin-right: 87px;
+}
+
+.footer-account__title,
+.footer-service__title,
+.footer-miscel__title,
+.footer-sing__title {
   font: 12px/12px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #fff;
   margin-bottom: 7px;
 }
 
-.footer__subtitle {
+.footer-sing__subtitle {
   font: 12px/12px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #fff;
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.footer__menu {
+.menu-account,
+.menu-service,
+.menu-miscel {
   padding-left: 0;
   margin: 0;
 }
 
-.footer__item {
+.menu-account__item,
+.menu-service__item,
+.menu-miscel__item {
   font: 12px/12px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #fff;
   text-decoration: none;
   list-style-type: none;
 }
 
-.footer__button {
+.footer-sing__button {
   font: 10px/10px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   color: #fff;
   background: #000;
@@ -458,8 +465,10 @@ footer {
 .block-right__flag:hover,
 .tree-text__button:hover,
 .stories__button:hover,
-.footer__item:hover,
-.footer__button:hover,
+.menu-account__item:hover,
+.menu-service__item:hover,
+.menu-miscel__item:hover,
+.footer-sing__button:hover,
 .social__item:hover {
   opacity: 0.5;
 }
