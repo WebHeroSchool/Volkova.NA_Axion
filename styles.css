@@ -609,7 +609,35 @@ footer {
     margin-right: 14px;
   }
 
-  
+  .stories__text {
+    font: 13px/16px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories__button {
+    font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories__data {
+    font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories__img {
+    margin-bottom: 29px;
+  }
+
+  .srories-wrapper {
+    margin-bottom: 79px;
+  }
+
+  figcaption {
+    margin-bottom: 10px;  
+  }
+
+
+
+
+
+
 
 
 
