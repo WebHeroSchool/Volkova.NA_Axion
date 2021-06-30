@@ -486,7 +486,8 @@ footer {
     padding: 9px 20px 0 4px;
   }
 
-  .menu__item, .block-right {
+  .menu__item,
+  .block-right {
     font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   }
 
@@ -630,16 +631,19 @@ footer {
   }
 
   figcaption {
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
   }
 
+  .footer-wrapper {
+    width: 82%;
+    padding-top: 57px;
+  }
 
+  .footer-miscel {
+    margin-right: 85px;
+  }
+}
 
-
-
-
-
-
-
+@media (max-width: 768px) {
 
 }
