@@ -9,63 +9,54 @@ body {
 
 .header {
   margin-bottom: 22px;
-}
-
-.header,
-.block-right,
-.block-left {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.block-left,
-.block-right {
-  margin-top: 23px;
 }
 
 .logo {
-  padding: 8px 28px 0 0;
+  padding: 32px 28px 0 0;
 }
 
-.menu__item,
-.block-right {
-  font: 12px/12px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+.logo-img_two {
+  display: none;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
 }
 
 .menu__item {
-  padding: 0 16px;
+  font: 12px/12px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
   text-decoration: none;
 }
 
-.menu__item:last-child {
-  padding-left: 14px;
+.menu__item_shop {
+  padding-left: 17px;
+  padding-right: 35px;
 }
 
-.block-right__search {
-  padding: 0 16px;
+.menu__item_news,
+.menu__item_team,
+.menu__item_legacy,
+.menu__item_search,
+.menu__item_sing,
+.menu__item_img {
+  padding-right: 35px;
 }
 
-.block-right__sing {
-  padding: 0 19px;
-  color: #000;
-  text-decoration: none;
+.menu__item_help {
+  padding-right: 175px;
 }
 
-.block-right__cart {
-  padding: 0 2px 0 19px;
-  color: #000;
-  text-decoration: none;
-}
-
-.block-right__img {
-  padding: 0 17px 0 0;
-}
-
-.block-right__flag {
-  padding-left: 18px;
-  padding-right: 0;
+.menu__item_cart {
+  padding-right: 4px;
 }
 
 .one {
@@ -511,11 +502,6 @@ footer {
 
 .one__button:hover,
 .menu__item:hover,
-.block-right__search:hover,
-.block-right__sing:hover,
-.block-right__cart:hover,
-.block-right__img:hover,
-.block-right__flag:hover,
 .tree-text__button:hover,
 .stories__button:hover,
 .menu-account__item:hover,
@@ -532,40 +518,31 @@ footer {
   }
 
   .logo {
-    padding: 9px 20px 0 4px;
-  }
-
-  .menu__item,
-  .block-right {
-    font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    padding: 33px 20px 0 4px;
   }
 
   .menu__item {
-    padding: 0 15px;
+    font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   }
 
-  .menu__item:last-child {
-    padding-left: 15px;
+  .menu__item_shop {
+    padding-left: 12px;
   }
 
-  .block-right__flag {
-    padding-left: 10px;
+  .menu__item_help {
+    padding-right: 106px;
   }
 
-  .block-right__cart {
-    padding: 0 4px 0 10px;
+  .menu__item_search {
+    padding-right: 33px;
   }
 
-  .block-right__img {
-    padding: 0 15px 0 0;
+  .menu__item_sing {
+    padding-right: 27px;
   }
 
-  .block-right__sing {
-    padding: 0 18px;
-  }
-
-  .block-right__search {
-    padding: 0 13px;
+  .menu__item_img {
+    padding-right: 25px;
   }
 
   .header {
@@ -735,7 +712,84 @@ footer {
   }
 
   .header {
-    margin-bottom: 22px;
+    margin-bottom: 0px;
+  }
+
+  .logo-img_one {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    background: url(img/Axion-logo-768.svg);
+    background-repeat: no-repeat;
+    background-size: 86%;
+    height: 40px;
+    width: 160px;
+    margin-top: 41px;
+    margin-left: 43px;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 54px;
+    right: 209px;
+    width: 61px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 9px;
+    background-color: #000;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -17px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 73px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .menu__item {
+    display: block;
+    padding: 12px 14px;
+    margin: 0;
+    color: #000;
+    font:  30px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu {
+    visibility: visible;
+    left: 0;
   }
 
   .one {
@@ -776,7 +830,7 @@ footer {
   }
 
   .product-card__img-2 {
-    margin: 13px 30px 13px 55px;
+    margin: 13px 20px 13px 63px;
   }
 
   .product-card__img-3,
@@ -798,7 +852,7 @@ footer {
   }
 
   .product-card__name_2 {
-    padding-left: 41px;
+    padding-left: 49px;
   }
 
   .product-card__price {
@@ -812,7 +866,7 @@ footer {
 
   .wrapper__choice_2 {
     padding-top: 17px;
-    padding-left: 32px;
+    padding-left: 38px;
   }
 
   .choice {
