@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 25px;
+  padding-top: 28px;
 }
 
 .menu__item {
@@ -45,18 +45,35 @@ body {
 .menu__item_news,
 .menu__item_team,
 .menu__item_legacy,
-.menu__item_search,
-.menu__item_sing,
-.menu__item_img {
+.menu__item_sing {
   padding-right: 35px;
 }
 
 .menu__item_help {
-  padding-right: 175px;
+  padding-right: 190px;
+}
+.menu__item_search {
+  padding-right: 36px;
+  padding-top: 5px;
+}
+
+.menu__item_img {
+  padding-right: 35px;
+  padding-bottom: 2px;
+}
+
+.menu__item_lypa{
+  margin-left: -12px;
 }
 
 .menu__item_cart {
   padding-right: 4px;
+}
+
+.menu__item_search-1 {
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #000;
 }
 
 .one {
@@ -71,7 +88,7 @@ body {
 .one__title {
   font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #fff;
-  margin: 0 75% 15px 60px;
+  margin: 0 75% 16px 60px;
   padding-top: 90px;
 }
 
@@ -80,7 +97,7 @@ body {
   color: #fff;
   text-decoration: none;
   margin-left: 60px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .button {
@@ -148,7 +165,7 @@ body {
   }
 }
 
-.product__title {
+/*.product__title {
   text-align: center;
   font: 22px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   margin-bottom: 20px;
@@ -499,7 +516,7 @@ footer {
   color: #fff;
   text-align: center;
 }
-
+*/
 .one__button:hover,
 .menu__item:hover,
 .tree-text__button:hover,
@@ -518,7 +535,11 @@ footer {
   }
 
   .logo {
-    padding: 33px 20px 0 4px;
+    padding: 32px 20px 0 4px;
+  }
+
+  .menu {
+    padding-top: 27px;
   }
 
   .menu__item {
@@ -530,11 +551,15 @@ footer {
   }
 
   .menu__item_help {
-    padding-right: 106px;
+    padding-right: 141px;
   }
 
   .menu__item_search {
-    padding-right: 33px;
+    padding-right: 27px;
+  }
+
+  .menu__item_search-1 {
+    width: 160px;
   }
 
   .menu__item_sing {
@@ -564,7 +589,7 @@ footer {
     margin-right: 16px;
     font: 12px/11.5px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
-
+/*
   .product-card__img-1,
   .product-card__img-2,
   .product-card__img-3,
@@ -704,6 +729,7 @@ footer {
   .footer-miscel {
     margin-right: 85px;
   }
+*/
 }
 
 @media (max-width: 768px) {
@@ -735,8 +761,8 @@ footer {
     align-items: center;
     position: fixed;
     top: 54px;
-    right: 209px;
-    width: 61px;
+    right: 43px;
+    width: 62px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
@@ -803,16 +829,35 @@ footer {
 
   .one__title {
     margin: 0 75% 50px 45px;
-    padding-top: 118px;
+    padding-top: 119px;
     font: 50px/48px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   }
 
   .one__button {
-    margin-left: 45px;
-    margin-right: 16px;
+    margin-left: 44px;
+    margin-right: 13px;
     font: 20px/19px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
 
+  .arrow div {
+    top: 10px;
+    width: 70px;
+  }
+
+  .arrow div::after {
+    width: 10px;
+    height: 1px;
+    top: -3px;
+    right: -2px;
+  }
+
+  .arrow div::before {
+    width: 10px;
+    height: 1px;
+    top: 3px;
+    right: -2px;
+  }
+/*
   .product__title {
     font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
     margin-bottom: 20px;
@@ -878,10 +923,98 @@ footer {
     width: 20px;
     height: 20px;
   }
+*/
+}
 
+@media (max-width: 375px) {
+  .logo {
+    background-size: 83%;
+    height: 18px;
+    width: 104px;
+    margin-top: 23px;
+    margin-left: 48px;
+  }
 
+  .menu__btn {
+    top: 34px;
+    right: 315px;
+    width: 41px;
+    height: 16px;
+  }
 
+  .menu__btn > span,
+  .menu__btn > span::before {
+    height: 6px;
+  }
 
+  .menu__btn > span::before {
+    top: -11px;
+  }
 
+  .one {
+    height: 191px;
+    background: url(img/baner3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .one__title {
+    margin: 0 75% 20px 48px;
+    padding-top: 63px;
+    font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .one__button {
+    margin-left: 47px;
+    margin-right: 8px;
+    font: 12px/11.5px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+  }
+
+  .arrow div {
+    top: 6px;
+    width: 45px;
+  }
+
+  .arrow div::after {
+    width: 6px;
+    height: 1px;
+    top: -2px;
+    right: -2px;
+  }
+
+  .arrow div::before {
+    width: 6px;
+    height: 1px;
+    top: 2px;
+    right: -2px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .logo {
+    margin-top: 23px;
+    margin-left: 20px;
+  }
+
+  .menu__btn {
+    right: 345px;
+  }
+
+  .one {
+    height: 191px;
+    background: url(img/baner4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .one__title {
+    margin: 0 75% 20px 20px;
+    padding-top: 63px;
+  }
+
+  .one__button {
+    margin-left: 20px;
+  }
 
 }
