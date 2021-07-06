@@ -888,6 +888,7 @@ footer {
   .menu-left {
     margin-right: 12%;
   }
+}
 
 @media (max-width: 777px) {
   .menu__btn {
