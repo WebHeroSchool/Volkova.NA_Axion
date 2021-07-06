@@ -55,7 +55,7 @@ body {
 
 .menu-left__item_news,
 .menu-left__item_team,
-.menu-left__item_legacy{
+.menu-left__item_legacy {
   padding-right: 35px;
 }
 
@@ -560,6 +560,7 @@ footer {
   .menu-left {
     margin-right: 28%;
   }
+
   .logo {
     margin-left: 8px;
   }
@@ -569,6 +570,7 @@ footer {
   .logo {
     margin-left: 1px;
   }
+
   .menu-left {
     margin: 28px 24% 0 1px;
   }
@@ -837,6 +839,7 @@ footer {
   }
 */
 }
+
 @media (max-width: 1020px) {
   .menu-left {
     margin-right: 16%;
@@ -943,9 +946,8 @@ footer {
   .menu-left__item,
   .menu-right__item {
     display: block;
-    padding: 10px 14px;
+    padding: 20px 14px;
     margin: 0;
-    padding: 20px 0;
     color: #000;
     font: 30px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
