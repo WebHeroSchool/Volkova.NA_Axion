@@ -610,6 +610,7 @@ footer {
   .menu-left {
     margin-right: 10%;
   }
+
   .logo {
     margin-left: 10px;
   }
@@ -625,6 +626,7 @@ footer {
   .menu-left {
     margin-right: 6%;
   }
+
   .logo {
     margin-left: 12px;
   }
@@ -952,7 +954,7 @@ footer {
     font: 30px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
 
-  .menu-right__item_sing  {
+  .menu-right__item_sing {
     width: 190px;
   }
 
