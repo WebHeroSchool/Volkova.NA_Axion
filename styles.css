@@ -1145,6 +1145,10 @@ footer {
     height: 30%;
   }
 
+  .menu__item {
+    font: 20px/11px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+  }
+
   .menu__btn {
     top: 33px;
     right: 315px;
