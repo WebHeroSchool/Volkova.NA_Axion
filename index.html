@@ -10,27 +10,27 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="block-left">
-        <div class="logo">
-          <img src="img/Axion_logo.svg">
-        </div>
+      <div class="logo"></div>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
         <nav class="menu">
-          <a class="menu__item" href="#">SHOP</a>
-          <a class="menu__item" href="#">NEWS</a>
-          <a class="menu__item" href="#">TEAM</a>
-          <a class="menu__item" href="#">LEGACY</a>
-          <a class="menu__item" href="#">HELP</a>
+          <a class="menu__item menu__item_shop" href="#">SHOP</a>
+          <a class="menu__item menu__item_news" href="#">NEWS</a>
+          <a class="menu__item menu__item_team" href="#">TEAM</a>
+          <a class="menu__item menu__item_legacy" href="#">LEGACY</a>
+          <a class="menu__item menu__item_help" href="#">HELP</a>
+          <form class="menu__item menu__item_search">
+            <input type="search" class="menu__item_search-1">
+            <img class="menu__item_lypa" src="img/lypa.png">
+          </form>
+          <a class="menu__item menu__item_sing" href="#">SIGN IN</a>
+          <a class="menu__item menu__item_cart" href="#">CART</a>
+          <img class="menu__item menu__item_img" src="img/Group 2.png">
+          <img class="menu__item menu__item_flag" src="img/flag.svg">
         </nav>
-      </div>
-      <div class="block-right">
-        <form class="block-right__search">
-          <input type="search">
-          <img src="img/lypa.png">
-        </form>
-        <a class="block-right__sing" href="#">SING IN</a>
-        <a class="block-right__cart" href="#">CART</a>
-        <img class="block-right__img" src="img/Group 2.png">
-        <img class="block-right__flag" src="img/flag.svg">
       </div>
     </header>
     <section class="one">
@@ -46,9 +46,9 @@
       <h2 class="product__title">FEATURED PRODUCT</h2>
       <section class="product-assortment">
         <section class="product-card">
-          <img class="product-card__img" src="img/kros-1.svg">
-          <p class="product-card__name">Atlas Black/Rasta Axion</p>
-          <div class="wrapper__choice">
+          <div class="product-card__img-1"></div>
+          <p class="product-card__name product-card__name_1">Atlas Black/Rasta Axion</p>
+          <div class="wrapper__choice wrapper__choice_1">
             <p class="product-card__price">$89.00</p>
             <nav class="choice">
               <button class="choice__item choice__item_gray"></button>
@@ -60,9 +60,9 @@
         </section>
         <div class="product-assortment__vl"></div>
         <section class="product-card">
-          <img class="product-card__img" src="img/kros-2.svg">
-          <p class="product-card__name">Camel/Chili Pepper Axion</p>
-          <div class="wrapper__choice">
+          <div class="product-card__img-2"></div>
+          <p class="product-card__name product-card__name_2">Camel/Chili Pepper Axion</p>
+          <div class="wrapper__choice wrapper__choice_2">
             <p class="product-card__price">$74.00</p>
             <nav class="choice">
               <button class="choice__item choice__item_gray"></button>
@@ -72,11 +72,11 @@
             </nav>
           </div>
         </section>
-        <div class="product-assortment__vl"></div>
+        <div class="c"></div>
         <section class="product-card">
-          <img class="product-card__img" src="img/kros-3.svg">
-          <p class="product-card__name">Mandel Smoke/Rust Axion </p>
-          <div class="wrapper__choice">
+          <div class="product-card__img-3"></div>
+          <p class="product-card__name product-card__name_3">Mandel Smoke/Rust Axion </p>
+          <div class="wrapper__choice wrapper__choice_3">
             <p class="product-card__price">$69.00</p>
             <nav class="choice">
               <button class="choice__item choice__item_gray"></button>
@@ -88,9 +88,9 @@
         </section>
         <div class="product-assortment__vl"></div>
         <section class="product-card">
-          <img class="product-card__img" src="img/kros-4.svg">
-          <p class="product-card__name">Cloud/Electric Blue Axion </p>
-          <div class="wrapper__choice">
+          <div class="product-card__img-4"></div>
+          <p class="product-card__name product-card__name_4">Cloud/Electric Blue Axion </p>
+          <div class="wrapper__choice wrapper__choice_4">
             <p class="product-card__price">$69.00</p>
             <nav class="choice">
               <button class="choice__item choice__item_gray"></button>
@@ -118,7 +118,7 @@
     <h4 class="stories__title">Recent stories</h4>
     <div class="srories-wrapper">
       <section class="stories">
-        <img class="stories__img" src="img/history-1.png">
+        <div class="stories__img-1"></div>
         <p class="stories__subtitle">Presents Justin Anagoa</p>
         <p class="stories__text">Anagoa’s been a part of the skater’s family ever since his early teenage years. He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
         <div class="wrapper__choice">
@@ -132,7 +132,7 @@
         </div>
       </section>
       <section class="stories">
-        <img class="stories__img" src="img/history-2.png">
+        <div class="stories__img-2"></div>
         <p class="stories__subtitle">First Frontside flip</p>
         <p class="stories__text">Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.
 Photo:Yoon Sul.</p>
@@ -147,7 +147,7 @@ Photo:Yoon Sul.</p>
         </div>
       </section>
       <section class="stories">
-        <img class="stories__img" src="img/history-3.png">
+        <div class="stories__img-3"></div>
         <p class="stories__subtitle">Kevin Baekkel is Pro</p>
         <p class="stories__text">Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
         <div class="wrapper__choice">
