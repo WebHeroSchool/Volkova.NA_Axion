@@ -318,7 +318,7 @@ body {
   position: relative;
   width: 664px;
   height: 360px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 33px;
 }
 
@@ -356,7 +356,7 @@ body {
 .tree-text__title {
   font: 22px/27px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #fff;
-  margin: 0px 30px 5px 40px;
+  margin: 0 30px 5px 40px;
 
 }
 
@@ -819,7 +819,7 @@ footer {
 
   .tree-text__subtitle {
     font: 13px/16px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
-    margin: 0 35px 15px 40px
+    margin: 0 35px 15px 40px;
   }
 
   .tree-text__button {
@@ -1199,7 +1199,7 @@ footer {
   }
 
   .tree-box {
-    width:  695px;
+    width: 695px;
     height: 470px;
     margin-left: 3px;
     margin-bottom: 90px;
@@ -1358,7 +1358,7 @@ footer {
 
   .tree-text__title {
     font: 20px/25px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-    margin: 0px 20px 18px 23px;
+    margin: 0 20px 18px 23px;
   }
 
   .tree-text__subtitle {
