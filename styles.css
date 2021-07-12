@@ -1240,7 +1240,7 @@ footer {
 
   .menu__btn {
     top: 34px;
-    right: 95px;
+    right: 47px;
     width: 41px;
     height: 16px;
   }
@@ -1299,6 +1299,10 @@ footer {
     padding-right: 10px;
   }
 
+  .product-assortment {
+    margin-bottom: 60px;
+  }
+
   .product-card__img-1 {
     height: 165px;
     width: 162px;
@@ -1329,6 +1333,13 @@ footer {
 
   .product-card__price {
     font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    padding-right: 118px;
+    padding-left: 12px;
+  }
+
+  .choice {
+    width: 80px;
+    padding-top: 4px;
   }
 
   .choice__item {
@@ -1337,20 +1348,35 @@ footer {
   }
 
   .tree {
-    height: 542px;
+    height: 442px;
+  }
+
+  .tree-text {
+    width: 80%;
+    margin-top: 54px;
   }
 
   .tree-text__title {
     font: 20px/25px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    margin: 0px 20px 18px 23px;
   }
 
   .tree-text__subtitle {
     font: 14px/17px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+    margin: 0 10px;
   }
 
   .tree-box {
-    width: 276px;
-    height: 152px;
+    width: 283px;
+    height: 167px;
+    margin-bottom: 45px;
+  }
+
+  .tree-box__button {
+    margin-top: 66px;
+    margin-left: 129px;
+    width: 25px;
+    height: 25px;
   }
 
 }
