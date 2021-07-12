@@ -185,7 +185,7 @@ body {
 
 .product__title {
   text-align: center;
-  font: 22px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  font: 20px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   margin-bottom: 20px;
 }
 
@@ -312,7 +312,6 @@ body {
   align-items: center;
   height: 494px;
   background-color: #000;
-  border: dashed 1px red;
 }
 
 .tree-box {
@@ -320,8 +319,7 @@ body {
   width: 664px;
   height: 360px;
   margin-top: 0px;
-  margin-left: 30px;
-  border: dashed 1px blue;
+  margin-left: 33px;
 }
 
 .tree-box__video {
@@ -349,10 +347,10 @@ body {
 .tree-box__button-img {
   align-items: center;
 }
+
 .tree-text {
   width: 35%;
   height: 190px;
-  border: dashed 1px red;
 }
 
 .tree-text__title {
@@ -365,7 +363,7 @@ body {
 .tree-text__subtitle {
   font: 14px/17px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #fff;
-  margin: 15px 40px 20px 40px;
+  margin: 15px 45px 20px 40px;
 
 }
 
@@ -730,6 +728,10 @@ footer {
     font: 12px/11.5px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
 
+  .product__title {
+    font: 22px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
   .product-card__img-1,
   .product-card__img-2,
   .product-card__img-3,
@@ -794,28 +796,39 @@ footer {
   }
 
   .tree {
-    height: 445px;
+    height: 442px;
     margin-bottom: 89px;
   }
 
-  .tree__video {
-    padding: 60px 15px 60px 30px;
-    width: 62%;
+  .tree-box {
+    width: 580px;
+    height: 325px;
+  }
+
+  .tree-box__button {
+    margin-top: 140px;
+    margin-left: 267px;
+    width: 43px;
+    height: 43px;
   }
 
   .tree-text__title {
-    margin-top: 2px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 11px;
   }
 
   .tree-text__subtitle {
     font: 13px/16px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
-    margin-bottom: 15px;
+    margin: 0 35px 15px 40px
   }
 
   .tree-text__button {
     font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-    margin-right: 14px;
+    margin-right: 15px;
+  }
+
+  .arrow div {
+    width: 45px;
   }
 
   /*.stories__title {
