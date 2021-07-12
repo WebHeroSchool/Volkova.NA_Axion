@@ -1107,6 +1107,10 @@ footer {
     padding-right: 15px;
   }
 
+  .product-assortment {
+    margin-bottom: 33px;
+  }
+
   .product-card__img-1,
   .product-card__img-2 {
     height: 233px;
@@ -1167,6 +1171,49 @@ footer {
     height: 20px;
   }
 
+  .tree {
+    background: url(img/black_baner.svg);
+    flex-direction: column-reverse;
+    height: 742px;
+  }
+
+  .tree-text {
+    width: 90%;
+    margin-top: 97px;
+    text-align: center;
+  }
+
+  .tree-text__title {
+    font: 30px/37px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    margin-bottom: 17px;
+    padding-right: 5px;
+  }
+
+  .tree-text__subtitle {
+    font: 20px/23px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+    margin: 0 1px;
+  }
+
+  .button__tree {
+    display: none;
+  }
+
+  .tree-box {
+    width:  695px;
+    height: 470px;
+    margin-left: 3px;
+    margin-bottom: 90px;
+  }
+
+  .tree-box__button {
+    margin-top: 170px;
+    margin-left: 320px;
+    width: 51px;
+    height: 51px;
+  }
+
+
+
 }
 
 @media (max-width: 375px) {
@@ -1192,8 +1239,8 @@ footer {
   }
 
   .menu__btn {
-    top: 33px;
-    right: 315px;
+    top: 34px;
+    right: 95px;
     width: 41px;
     height: 16px;
   }
@@ -1212,6 +1259,7 @@ footer {
     background: url(img/baner3.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 35px;
   }
 
   .one__title {
@@ -1243,6 +1291,66 @@ footer {
     height: 1px;
     top: 2px;
     right: -2px;
+  }
+
+  .product__title {
+    font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    margin-bottom: 3px;
+    padding-right: 10px;
+  }
+
+  .product-card__img-1 {
+    height: 165px;
+    width: 162px;
+    margin-left: 110px;
+    margin-bottom: 14px;
+    margin-top: 3px;
+  }
+
+  .product-card__img-2,
+  .product-card__name_2,
+  .wrapper__choice_2 {
+    display: none;
+  }
+
+  .product-card__name {
+    font: 15px/14px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+  }
+
+  .product-card__name_1 {
+    padding-left: 63px;
+    margin-bottom: 4px;
+  }
+
+  .wrapper__choice_1 {
+    padding-top: 0;
+    padding-left: 50px;
+  }
+
+  .product-card__price {
+    font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .choice__item {
+    width: 15px;
+    height: 15px;
+  }
+
+  .tree {
+    height: 542px;
+  }
+
+  .tree-text__title {
+    font: 20px/25px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .tree-text__subtitle {
+    font: 14px/17px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+  }
+
+  .tree-box {
+    width: 276px;
+    height: 152px;
   }
 
 }
