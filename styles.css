@@ -1412,4 +1412,29 @@ footer {
     margin-left: 20px;
   }
 
+  .product-card__img-1 {
+    margin-left: 81px;
+    margin-bottom: 13px;
+  }
+
+  .product-card__name_1 {
+    padding-left: 33px;
+  }
+
+  .wrapper__choice_1 {
+    padding-left: 23px;
+  }
+
+  .tree-text {
+    width: 90%;
+  }
+
+  .tree-text__title {
+    margin-left: 19px;
+  }
+
+  .tree-text__subtitle {
+    padding: 0 5px;
+  }
+
 }
