@@ -1173,10 +1173,10 @@ footer {
 
   .menu__item {
     display: block;
-    padding: 20px 14px;
+    padding: 10px 10px;
     margin: 0;
     color: #000;
-    font: 30px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+    font: 20px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
   }
 
   .menu__item_img,
@@ -1211,14 +1211,6 @@ footer {
     width: 160px;
     margin-top: 42px;
     margin-left: 8px;
-  }
-
-  .menu__item {
-    font: 20px/29px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
-  }
-
-  .menu__item {
-    padding: 10px 10px;
   }
 
   .tree-box__button {
