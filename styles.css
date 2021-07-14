@@ -312,6 +312,7 @@ body {
   align-items: center;
   height: 494px;
   background-color: #000;
+  margin-bottom: 78px;
 }
 
 .tree-box {
@@ -373,10 +374,9 @@ body {
   text-decoration: none;
   margin-left: 40px;
   margin-right: 10px;
-
 }
 
-/*.srories-wrapper {
+.srories-wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 69px;
@@ -435,6 +435,7 @@ body {
   height: 85px;
   margin-top: 0;
   margin-bottom: 15px;
+  padding-right: 4px;
 }
 
 .stories__button {
@@ -469,7 +470,8 @@ figcaption {
 }
 
 figure {
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
   font-size: 0;
   white-space: nowrap;
   margin-bottom: 81px;
@@ -562,7 +564,7 @@ footer {
   color: #fff;
   text-align: center;
 }
-*/
+
 .one__button:hover,
 .menu__item:hover,
 .tree-text__button:hover,
@@ -595,6 +597,10 @@ footer {
     padding-left: 75px;
   }
 
+  .gallery {
+    width: 140px;
+  }
+
 }
 
 @media (max-width: 1120px) {
@@ -621,6 +627,10 @@ footer {
     margin-left: 290px;
   }
 
+  .gallery {
+    width: 135px;
+  }
+
 }
 
 @media (max-width: 1080px) {
@@ -639,8 +649,18 @@ footer {
 }
 
 @media (max-width: 1060px) {
-.tree-box__button {
+  .tree-box__button {
     margin-left: 280px;
+  }
+
+  .stories {
+    width: 290px;
+  }
+
+  .stories__img-1,
+  .stories__img-2,
+  .stories__img-3 {
+    width: 290px;
   }
 
 }
@@ -846,7 +866,7 @@ footer {
     width: 45px;
   }
 
-  /*.stories__title {
+  .stories__title {
     margin-bottom: 44px;
   }
 
@@ -858,7 +878,8 @@ footer {
   .stories__img-2,
   .stories__img-3 {
     width: 277px;
-    background-size: 100%;
+    height: 147px;
+    background-size: 110%;
     background-repeat: no-repeat;
     margin-bottom: 32px;
   }
@@ -867,9 +888,17 @@ footer {
     font: 13px/16px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   }
 
+  .wrapper__choice {
+    padding-top: 8px;
+  }
+
   .stories__button {
     font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-    margin-right: 1px;
+    margin-right: 0;
+  }
+
+  .arrow__1 div {
+    width: 28px;
   }
 
   .stories__data {
@@ -897,7 +926,7 @@ footer {
   .footer-miscel {
     margin-right: 85px;
   }
-*/
+
 }
 
 @media (max-width: 1020px) {
