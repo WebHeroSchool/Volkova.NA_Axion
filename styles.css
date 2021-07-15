@@ -1359,8 +1359,14 @@ footer {
     height: 20px;
   }
 
-  .tree {
+  .wrapper__black-fon {
     background: url(img/black_baner.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .tree {
+    background: none;
     flex-direction: column-reverse;
     height: 742px;
   }
@@ -1400,6 +1406,26 @@ footer {
     height: 51px;
   }
 
+  .stories__title,
+  .stories__subtitle,
+  .stories__text,
+  .stories__button,
+  .arrow__1 div,
+  .arrow__1 div::after,
+  .arrow__1 div::before {
+    color: #fff;
+  }
+
+  figcaption {
+  color: #fff;
+  opacity: 100%;
+ }
+
+ .stories__img-1,
+ .stories__img-2 {
+   background-repeat: no-repeat;
+ }
+ 
 }
 
 @media (max-width: 375px) {
