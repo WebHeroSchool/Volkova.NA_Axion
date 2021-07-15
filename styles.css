@@ -481,6 +481,10 @@ figure {
   width: 147px;
 }
 
+.gallery__eight {
+  display: none;
+}
+
 footer {
   background-color: #000;
   height: 300px;
@@ -1296,7 +1300,7 @@ footer {
   }
 
   .product-assortment {
-    margin-bottom: 33px;
+    margin-bottom: 28px;
   }
 
   .product-card__img-1,
@@ -1368,7 +1372,7 @@ footer {
   .tree {
     background: none;
     flex-direction: column-reverse;
-    height: 742px;
+    height: 660px;
   }
 
   .tree-text {
@@ -1379,8 +1383,9 @@ footer {
 
   .tree-text__title {
     font: 30px/37px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-    margin-bottom: 17px;
-    padding-right: 5px;
+    margin-bottom: 19px;
+    margin-top: 8px;
+    padding-right: 10px;
   }
 
   .tree-text__subtitle {
@@ -1394,9 +1399,9 @@ footer {
 
   .tree-box {
     width: 698px;
-    height: 610px;
+    height: 590px;
     margin-left: 3px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
   }
 
   .tree-box__button {
@@ -1410,22 +1415,149 @@ footer {
   .stories__subtitle,
   .stories__text,
   .stories__button,
+  .stories__data {
+    color: #fff;
+  }
+
+  .srories-wrapper {
+    margin-bottom: 115px;
+  }
+
+  .stories {
+    width: 312px;
+    margin-right: 45px;
+  }
+
+  .stories__1 {
+    margin-left: 45px;
+  }
+
+  .stories__img-1,
+  .stories__img-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 165px;
+  }
+
+  .stories__title {
+    text-align: center;
+    font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    padding-top: 10px;
+    margin-bottom: 42px;
+  }
+
+  .stories__subtitle {
+    font: 25px/24px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories__text {
+    font: 20px/25px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+    margin-bottom: 19px;
+    height: 200px;
+    padding-right: 1px;
+  }
+
+  .wrapper__choice_one,
+  .wrapper__choice_two {
+    padding-top: 5px;
+  }
+
+  .wrapper__choice_one {
+    width: 330px;
+  }
+
+  .stories__button {
+    font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    margin-right: 15px;
+  }
+
+  .stories__data {
+    font: 15px/14px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+    opacity: 100%;
+  }
+
+
   .arrow__1 div,
   .arrow__1 div::after,
   .arrow__1 div::before {
-    color: #fff;
+    background-color: #fff;
+  }
+
+  .arrow__1 div {
+    width: 45px;
+  }
+
+  figure {
+    margin-bottom: 125px;
   }
 
   figcaption {
   color: #fff;
   opacity: 100%;
+  margin-right: 45px;
+  font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
  }
 
- .stories__img-1,
- .stories__img-2 {
-   background-repeat: no-repeat;
+ .gallery {
+   width: 170px;
+   height: 170px;
  }
- 
+
+ .gallery__eight {
+   display: block;
+ }
+
+ .wrapper-gallery{
+   display: grid;
+   grid-template-columns: repeat(4, 170px);
+   margin-left: 45px;
+ }
+
+ .footer-wrapper {
+    padding-top: 47px;
+    margin-bottom: 77px;
+    width: 100%;
+  }
+
+ .footer-account__title,
+ .footer-service__title,
+ .footer-miscel__title,
+ .footer-sing__title {
+   font: 12px/11.5px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+   margin-bottom: 5px;
+ }
+
+ .menu-account__item,
+ .menu-service__item,
+ .menu-miscel__item,
+ .footer-sing__subtitle {
+   font: 12px/11.5px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
+ }
+
+ .footer-account {
+    margin: 0 55px 0 49px;
+  }
+
+  .footer-service {
+    margin-right: 65px;
+  }
+
+  .footer-miscel {
+    margin-right: 25px;
+  }
+
+  .footer-sing__subtitle {
+    word-spacing: 6px;
+    white-space: pre-wrap;
+  }
+
+  .footer__niz {
+    padding-right: 0;
+  }
+
+
+
 }
 
 @media (max-width: 375px) {
