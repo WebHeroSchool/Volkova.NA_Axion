@@ -1503,11 +1503,11 @@ footer {
   }
 
   figcaption {
-  color: #fff;
-  opacity: 100%;
-  margin-right: 45px;
-  font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
- }
+    color: #fff;
+    opacity: 100%;
+    margin-right: 45px;
+    font: 30px/29px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
 
  .gallery {
    width: 170px;
