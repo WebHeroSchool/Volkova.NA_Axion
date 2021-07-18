@@ -697,6 +697,7 @@ footer {
   .stories__img-3 {
     width: 290px;
   }
+
   .gallery {
     width: 133px;
   }
@@ -1734,7 +1735,7 @@ footer {
   }
 
   .wrapper-gallery {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   figcaption {
@@ -1811,7 +1812,7 @@ footer {
 
   .gallery {
     width: 190px;
-    height: 190px
+    height: 190px;
   }
 
   .gallery__seven,
@@ -2042,7 +2043,7 @@ footer {
 }
 
 @media (max-width: 450px){
-  
+
 }
 
 
