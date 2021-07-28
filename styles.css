@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  margin-bottom: 27px;
+  margin-bottom: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -96,7 +96,7 @@ body {
 
 .one {
   display: block;
-  height: 282px;
+  height: 281px;
   background: url(img/baner1.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,18 +232,27 @@ body {
   width: 188px;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 1px 20px 26px 23px;
+  margin: 1px 20px 25px 23px;
 }
 
 .product-card__name {
   font: 12px/12px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
-  padding-left: 11px;
   margin: auto;
+}
+
+.product-card__name_1,
+.product-card__name_2 {
+  padding-left: 11px;
+}
+
+.product-card__name_3,
+.product-card__name_4 {
+  padding-left: 13px;
 }
 
 .product-card__price {
   font: 14px/13px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-  padding-left: 11px;
+  padding-left: 12px;
   margin: 0;
 }
 
@@ -251,7 +260,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 8px;
+  padding-top: 7px;
 }
 
 .choice {
@@ -388,7 +397,7 @@ body {
   font: 22px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
   text-transform: uppercase;
-  margin-bottom: 42px;
+  margin-bottom: 44px;
   margin-top: 0;
 }
 
@@ -408,7 +417,7 @@ body {
   width: 307px;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .stories__img-1 {
@@ -426,17 +435,23 @@ body {
 .stories__subtitle {
   font: 18px/17px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   margin-top: 0;
 }
 
 .stories__text {
   font: 14px/17px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #000;
-  height: 85px;
+  height: 105px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   padding-right: 4px;
+}
+
+.wrapper__choice_one,
+.wrapper__choice_two,
+.wrapper__choice_str {
+  padding-top: 2px;
 }
 
 .stories__button {
@@ -454,6 +469,7 @@ body {
 
 .arrow__1 div {
   width: 27px;
+  top: 7px;
 }
 
 .stories__data {
@@ -467,7 +483,7 @@ figcaption {
   font: 18px/17px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
   opacity: 30%;
-  margin-bottom: 11px;
+  margin-bottom: 12px;
 }
 
 figure {
@@ -494,18 +510,20 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 76%;
   margin: auto;
   padding-top: 56px;
   margin-bottom: 40px;
 }
 
-.footer-service {
-  padding-left: 44px;
+.footer-account {
+  padding-left: 6px;
+  padding-right: 41px;
 }
 
-.footer-miscel {
-  padding-right: 10px;
+.footer-sing {
+  padding-right: 3px;
+  padding-left: 12px;
 }
 
 .footer-account__title,
@@ -544,7 +562,7 @@ footer {
   color: #fff;
   background: #000;
   border-color: #fff;
-  padding: 9px 44px 7px 48px;
+  padding: 9px 46px 7px 44px;
   margin-bottom: 35px;
 }
 
@@ -567,7 +585,7 @@ footer {
 .social-icons__item_fb {
   background: url(img/facebook.png);
   background-repeat: no-repeat;
-  margin-left: 2px;
+  margin-left: 0;
 }
 
 .social-icons__item_tw {
@@ -580,20 +598,21 @@ footer {
 .social-icons__item_ig {
   background: url(img/instagram.png);
   background-repeat: no-repeat;
-  margin-left: 15px;
+  margin-left: 13px;
 }
 
 .social-icons__item_pt {
   background: url(img/pinterest.png);
   background-repeat: no-repeat;
   margin-left: 15px;
+  margin-right: 2px;
 }
 
 .footer__niz {
   font: 12px/12px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   color: #fff;
   text-align: center;
-  padding-right: 3px;
+  padding-right: 4px;
 }
 
 .one__button:hover,
