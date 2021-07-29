@@ -815,7 +815,7 @@ footer {
 
   .one {
     height: 255px;
-    margin-bottom: 65px;
+    margin-bottom: 64px;
   }
 
   .one__title {
@@ -896,6 +896,10 @@ footer {
     margin-bottom: 78px;
   }
 
+  .product-card__price {
+    padding-left: 10px;
+  }
+
   .tree {
     height: 442px;
     margin-bottom: 92px;
@@ -919,7 +923,7 @@ footer {
   }
 
   .tree-text__title {
-    margin-top: 5px;
+    margin-top: 7px;
     margin-bottom: 11px;
   }
 
@@ -942,7 +946,7 @@ footer {
   }
 
   .stories__title {
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
 
   .stories__1 {
@@ -960,7 +964,7 @@ footer {
     height: 147px;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .stories__img-1 {
@@ -979,8 +983,10 @@ footer {
     font: 13px/16px 'Gotham Pro Light', Arial, Helvetica, Sans-serif;
   }
 
-  .wrapper__choice {
-    padding-top: 8px;
+  .wrapper__choice_one,
+  .wrapper__choice_two,
+  .wrapper__choice_str {
+    padding-top: 1px;
   }
 
   .stories__button {
@@ -990,6 +996,7 @@ footer {
 
   .arrow__1 div {
     width: 27px;
+    top: 6px;
   }
 
   .stories__data {
@@ -1015,12 +1022,12 @@ footer {
     padding-top: 57px;
   }
 
-  .footer-service {
-    padding-left: 42px;
+  .footer-account {
+    padding-left: 0;
   }
 
-  .footer-miscel {
-    padding-right: 13px;
+  .footer-sing {
+    padding-right: 0;
   }
 
   .footer-sing__button {
@@ -1041,7 +1048,7 @@ footer {
   }
 
   .social-icons__item_ig {
-    margin-left: 13px;
+    margin-left: 14px;
   }
 
   .social-icons__item_pt {
