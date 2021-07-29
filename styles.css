@@ -1959,7 +1959,7 @@ footer {
     display: none;
   }
 
-  .product-card__img-1{
+  .product-card__img-1 {
     margin-left: 200px;
   }
 
@@ -2124,7 +2124,7 @@ footer {
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .arrow div {
     width: 50px;
   }
@@ -2673,7 +2673,7 @@ footer {
   }
 
   .product-card__name_1 {
-    padding-left: 0px;
+    padding-left: 0;
     margin-left: 34px;
   }
 
